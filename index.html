@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="mood-tracker-container">
+    <h1>Mood Tracker</h1>
+    <h2>Track your daily mood everyday!</h2>
+
+    
+    <div class="mood-options">
+      <div class="mood-circle" data-mood="happy"><img src="Images/happy.jpg" alt="Happy"><span class="mood-label">Happy</span></div>
+      <div class="mood-circle" data-mood="excited"><img src="Images/excited.jpg" alt="Excited"><span class="mood-label">Excited</span></div>
+      <div class="mood-circle" data-mood="neutral"><img src="Images/neutral.jpg" alt="Neutral"><span class="mood-label">Neutral</span></div>
+      <div class="mood-circle" data-mood="tired"><img src="Images/tired.jpg" alt="Tired"><span class="mood-label">Tired</span></div>
+      <div class="mood-circle" data-mood="sad"><img src="Images/sad.jpg" alt="Sad"><span class="mood-label">Sad</span></div>
+    </div>
+
+    
+    <div class="mood-quote"></div>
+    <div class="journal-container">
+  <textarea id="journal-input" placeholder="Write your thoughts here..."></textarea>
+  <button id="save-journal">Save</button>
+  <div id="saved-message"></div>
+  <div id="streak-message"></div>
+</div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
