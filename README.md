@@ -1,4 +1,4 @@
-##Description##
+##Description
 
 I built a Mood Tracker web application to help users track their daily moods and write short journal entries. Users can select an emoji to show how they feel, write their thoughts in a large input box, and save their entries. The app also tracks a 7-day mood streak to encourage consistent journaling.
 
