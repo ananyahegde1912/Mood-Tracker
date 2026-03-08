@@ -56,14 +56,6 @@ Saves journal entries and streak counts using localStorage.
 Updates streak count dynamically whenever a new entry is saved.
 
 
-**Installation**
-
-
-Download or clone this repository.
-
-Open the index.html file in your browser.
-
-
 **Future Improvements**
 
 
