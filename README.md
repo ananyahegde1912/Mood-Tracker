@@ -16,9 +16,49 @@ Tracks 7-day streaks to motivate users to log their mood every day.
 
 Responsive and interactive UI with hover effects and smooth transitions.
 
-<img width="945" height="319" alt="43b40afa-6acb-466c-bc24-ceb7993dc561" src="https://github.com/user-attachments/assets/f9bcd347-7454-4e9e-85b1-c1873f4f8b17" />
-<img width="520" height="142" alt="2685688b-d9c8-4398-962d-7b59e80c5f96" src="https://github.com/user-attachments/assets/5bc13c0b-0d86-49b3-a3fd-c5e51054bfa2" />
-<img width="475" height="253" alt="038f8e66-a9fe-4615-9365-b266b7f6230d" src="https://github.com/user-attachments/assets/f64aee25-1ae1-49ec-9bef-471bb32a9c2d" />
-<img width="466" height="234" alt="c663fb74-9b4f-48fe-bd66-c72e3b227f1e" src="https://github.com/user-attachments/assets/5afcd07a-650e-400c-9d3c-ecc20020eea2" />
 
+<img width="815" height="470" alt="Screenshot 2026-03-07 202131" src="https://github.com/user-attachments/assets/1142316d-5010-4026-a9f4-eed9b0dd0e08" />
 
+How to Use
+
+Open the index.html file in your browser.
+
+Click on an emoji to select your mood for the day.
+
+Read the motivational quote that appears for your selected mood.
+
+Write your thoughts in the large journal input box.
+
+Click the "Save" button to store your entry.
+
+Check your streak below the input box to see how many consecutive days you have logged your mood.
+
+Technical Approach
+
+HTML is used to create the structure of the page, including emojis, input box, and buttons.
+
+CSS is used for styling, adding hover effects, and making the page visually appealing.
+
+JavaScript handles all the interactivity:
+
+Detects which mood the user clicked using dataset attributes.
+
+Changes the background and shows a motivational quote based on the selected mood.
+
+Saves journal entries and streak counts using localStorage.
+
+Updates streak count dynamically whenever a new entry is saved.
+
+Installation
+
+Download or clone this repository.
+
+Open the index.html file in your browser.
+
+Future Improvements
+
+Add a calendar view to see mood trends over the month.
+
+Use a backend database to save data permanently instead of relying on browser storage.
+
+Add more mood options and custom quotes for more personalization.
