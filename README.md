@@ -1,8 +1,10 @@
 **Description**
 
+
 I built a Mood Tracker web application to help users track their daily moods and write short journal entries. Users can select an emoji to show how they feel, write their thoughts in a large input box, and save their entries. The app also tracks a 7-day mood streak to encourage consistent journaling.
 
 **Features**
+
 
 Clickable mood emojis that change the page background according to the selected mood.
 
@@ -21,6 +23,8 @@ Responsive and interactive UI with hover effects and smooth transitions.
 
 
 **How to Use**
+
+
 Open the index.html file in your browser.
 
 Click on an emoji to select your mood for the day.
@@ -35,6 +39,7 @@ Check your streak below the input box to see how many consecutive days you have 
 
 
 **Technical Approach**
+
 
 HTML is used to create the structure of the page, including emojis, input box, and buttons.
 
@@ -53,11 +58,13 @@ Updates streak count dynamically whenever a new entry is saved.
 
 **Installation**
 
+
 Download or clone this repository.
 
 Open the index.html file in your browser.
 
 
 **Future Improvements**
+
 
 Add more mood options and custom quotes for more personalization.
